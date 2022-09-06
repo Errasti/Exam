@@ -21,3 +21,6 @@ void ShowArray(string[] array)
     }
     Console.WriteLine();
 }
+
+string[] sampleArray = new string[7] { "geek", "sample", "tru", "oke", "done", "black", "fin" };
+string[] finalArray = new string[sampleArray.Length];
